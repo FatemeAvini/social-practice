@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+        display: flex;
+    justify-content: space-between;
+margin: 10px 20px;
+}
+.navigation svg{
+    width: 25px;
+margin: 5px 10px;
+}
+.navigation h2{
+    
+ 
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: italic;
+}
+
+.story{
+    background-color: blue;
+    width: 60px;
+    margin: 10px 20px;
+}
