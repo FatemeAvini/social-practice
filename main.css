@@ -1,27 +1,153 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.navigation{
-        display: flex;
-    justify-content: space-between;
-margin: 10px 20px;
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
 }
-.navigation svg{
-    width: 25px;
-margin: 5px 10px;
+.navigation svg {
+  width: 25px;
+  margin: 5px 15px;
 }
-.navigation h2{
-    
- 
+.navigation h2 {
   font-family: "Playwrite DE SAS", cursive;
   font-optical-sizing: auto;
   font-weight: 200px;
   font-style: italic;
+  margin-left: 1rem;
+}
+.scrollContainer {
+    overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color: #d6fdb8;
+  
 }
 
-.story{
-    background-color: blue;
-    width: 60px;
-    margin: 10px 20px;
+::-webkit-scrollbar-track .scrollContainer {
+background: #d82c2c;
+border-radius: 10px;
+  }
+
+.stories {
+  display: flex;
+
+}
+.story1 {
+  width: 145px;
+  height: 145px;
+  margin: 10px 20px;
+  border-radius: 50%;
+  background: url("images/code.jpg") center/cover;
+  border: 4px solid #d82c2c;
+}
+.myStory {
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  margin: 10px 20px;
+  background-color: #e8e8e8;
+}
+.myStory img {
+  margin-left: 0.6rem;
+}
+
+.stories-name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.story {
+  background: url("images/programmerGirl.jpg") center/cover;
+  width: 145px;
+  height: 145px;
+  margin: 10px 20px;
+  border-radius: 50%;
+  border: 4px solid #d82c2c;
+}
+.profilePost {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url("images/code.jpg") center/cover;
+  border: 4px solid #d82c2c;
+}
+.headerPost1 {
+  margin: 16px 20px;
+  display: flex;
+  flex-direction: row;
+}
+.namePost {
+  margin: 10px 20px;
+}
+.iconHPost {
+  width: 35px;
+  margin-left: 100rem;
+  margin-top: 25px;
+}
+.post1 img {
+  margin-left: 20px;
+}
+
+.leftIcons1 {
+  width: 25px;
+  display: flex;
+  width: 145px;
+  gap: 15px;
+}
+.rightIcons1 {
+  width: 25px;
+}
+.post1Icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 10px;
+
+}
+.contentsPost1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 20px;
+}
+.contentsPost1 p {
+  font-size: 18px;
+  line-height: 1.2;
+}
+.profilePost2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url("images/programmerGirl.jpg") center/cover;
+  border: 4px solid #d82c2c;
+}
+.myStoryFooter {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 10px 20px;
+  background-color: #e8e8e8;
+}
+.myStoryFooter img {
+  margin: 2px 4px;
+}
+.footer svg {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  justify-content: space-around;
+  align-items: center;
 }
